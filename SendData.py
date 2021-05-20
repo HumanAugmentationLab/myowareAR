@@ -12,7 +12,7 @@ from pylsl import StreamInfo, StreamOutlet, local_clock
 
 def main(argv):
     name = 'Myoware'
-    type = 'EMG'
+    type = 'EEG'
     # clock, then 4 Analog values 
     n_channels = 4
     help_string = 'SendData.py -s <sampling_rate> -n <stream_name> -t <stream_type>'
